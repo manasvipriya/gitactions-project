@@ -35,6 +35,6 @@ jobs:
       with:
         image: manasvi05/bennett
         tags: v1, latest
-        registry: registry-url.io
+        registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
